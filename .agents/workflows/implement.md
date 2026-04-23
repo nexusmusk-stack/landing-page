@@ -44,7 +44,6 @@ This document defines the standard operating procedure (SOP) for Antigravity whe
 - **Trigger**: All tests PASS and user satisfied.
 - **Action**:
   - Update `.agent/memory.md` with new patterns or decisions.
-  - Create a git commit following `rules/commit-convention.md`.
   - Provide a final summary to the user (In Vietnamese) including:
     - Task summary.
     - QC Status.
@@ -61,8 +60,7 @@ This document defines the standard operating procedure (SOP) for Antigravity whe
 | **UI Polish** | Coding -> Reviewer -> Fix-Review -> Visual QC -> Finish |
 
 ## 📏 Guardrails
-1. **Incremental Commits**: Commit after every significant logical change.
-2. **Always Plan**: Even small tasks benefit from a quick "Research & Plan" phase.
-3. **Vietnamese for Humans**: All external reports, plans, and summaries MUST be in Vietnamese.
-4. **English for Logic**: Internal thoughts, variable names, and technical docs are in English.
-5. **No Placeholders**: Never use placeholder text or images; generate real assets if needed.
+1. **Always Plan**: Even small tasks benefit from a quick "Research & Plan" phase.
+2. **Vietnamese for Humans**: All external reports, plans, and summaries MUST be in Vietnamese.
+3. **English for Logic**: Internal thoughts, variable names, and technical docs are in English.
+4. **No Placeholders**: Never use placeholder text or images; generate real assets if needed.
