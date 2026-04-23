@@ -13,7 +13,8 @@ export function Navbar() {
     <header className="fixed top-0 w-full z-50 bg-background border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link href="/" className="font-serif font-medium text-2xl tracking-normal text-foreground">
+          <Link href="/" className="flex items-center gap-2 font-serif font-medium text-2xl tracking-normal text-foreground">
+            <img src="/icon.png" alt="Logo" className="w-8 h-8 rounded-lg object-cover" />
             NM<span className="text-primary">.</span>
           </Link>
         </div>

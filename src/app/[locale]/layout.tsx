@@ -29,7 +29,12 @@ export async function generateMetadata({
 
   return {
     title: `Nexus Musk | ${t('role')}`,
-    description: t('description')
+    description: t('description'),
+    icons: {
+      icon: '/icon.png',
+      shortcut: '/icon.png',
+      apple: '/icon.png',
+    },
   };
 }
 
