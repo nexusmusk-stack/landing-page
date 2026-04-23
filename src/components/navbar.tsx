@@ -3,6 +3,7 @@
 import * as React from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 import { ThemeToggle } from "./theme-toggle";
 import { LanguageSwitcher } from "./language-switcher";
 
@@ -14,7 +15,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2 font-serif font-medium text-2xl tracking-normal text-foreground">
-            <img src="/icon.png" alt="Logo" className="w-8 h-8 rounded-lg object-cover" />
+            <Image src="/icon.png" alt="Logo" width={32} height={32} className="rounded-lg object-cover" />
             NM<span className="text-primary">.</span>
           </Link>
         </div>
