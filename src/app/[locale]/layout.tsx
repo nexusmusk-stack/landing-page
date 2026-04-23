@@ -7,6 +7,8 @@ import {Navbar} from '@/components/navbar';
 import {Inter, Lora} from 'next/font/google';
 import '../globals.css';
 
+export const runtime = 'edge';
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-sans',

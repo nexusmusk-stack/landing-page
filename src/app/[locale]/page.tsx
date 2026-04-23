@@ -4,6 +4,8 @@ import { SkillsSection } from "@/components/skills-section";
 import { ProjectsSection } from "@/components/projects-section";
 import { Footer } from "@/components/footer";
 
+export const runtime = 'edge';
+
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col">
