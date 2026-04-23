@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "Hero": {
+    "greeting": "Xin chào, tôi là Nexus Musk",
+    "role": "Kỹ sư Phần mềm",
+    "description": "Tôi xây dựng các ứng dụng web hiện đại, dễ mở rộng và đẹp mắt.",
+    "cta": "Liên hệ ngay",
+    "viewWork": "Xem Dự án"
+  },
+  "About": {
+    "title": "Về Tôi",
+    "content": "Tôi là một kỹ sư phần mềm đam mê xây dựng các ứng dụng web mạnh mẽ. Trọng tâm của tôi là tạo ra trải nghiệm người dùng mượt mà với các công nghệ hiện đại."
+  },
+  "Skills": {
+    "title": "Kỹ năng của tôi"
+  },
+  "Projects": {
+    "title": "Dự án tiêu biểu",
+    "viewProject": "Xem Dự án"
+  },
+  "Contact": {
+    "title": "Kết nối với tôi",
+    "email": "Gửi Email"
+  }
+}

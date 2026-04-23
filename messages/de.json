@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "greeting": "Hallo, ich bin Nexus Musk",
+    "role": "Software-Ingenieur",
+    "description": "Ich entwickle moderne, skalierbare und schöne Webanwendungen.",
+    "cta": "Kontakt aufnehmen",
+    "viewWork": "Meine Arbeit ansehen"
+  },
+  "About": {
+    "title": "Über Mich",
+    "content": "Ich bin ein leidenschaftlicher Software-Ingenieur mit Erfahrung in der Entwicklung robuster Webanwendungen. Mein Fokus liegt darauf, nahtlose Benutzererfahrungen mit modernen Technologien zu schaffen."
+  },
+  "Skills": {
+    "title": "Meine Fähigkeiten"
+  },
+  "Projects": {
+    "title": "Ausgewählte Projekte",
+    "viewProject": "Projekt ansehen"
+  },
+  "Contact": {
+    "title": "Lass uns vernetzen",
+    "email": "E-Mail senden"
+  }
+}

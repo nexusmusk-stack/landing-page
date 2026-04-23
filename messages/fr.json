@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Bonjour, je suis Nexus Musk",
+    "role": "Ingénieur Logiciel",
+    "description": "Je crée des applications web modernes, évolutives et esthétiques.",
+    "cta": "Contactez-moi",
+    "viewWork": "Voir mon travail"
+  },
+  "About": {
+    "title": "À propos de moi",
+    "content": "Je suis un ingénieur logiciel passionné par le développement d'applications web robustes. Mon objectif est de créer des expériences utilisateur fluides avec des technologies modernes."
+  },
+  "Skills": {
+    "title": "Mes Compétences"
+  },
+  "Projects": {
+    "title": "Projets Phares",
+    "viewProject": "Voir le Projet"
+  },
+  "Contact": {
+    "title": "Connectons-nous",
+    "email": "Envoyer un email"
+  }
+}

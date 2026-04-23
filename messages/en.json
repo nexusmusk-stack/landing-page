@@ -1,0 +1,30 @@
+{
+  "Header": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm Nexus Musk",
+    "role": "Software Engineer",
+    "description": "I build modern, scalable, and beautiful web applications.",
+    "cta": "Get in Touch",
+    "viewWork": "View My Work"
+  },
+  "About": {
+    "title": "About Me",
+    "content": "I am a passionate software engineer with experience in developing robust web applications. I focus on creating seamless user experiences with modern technologies."
+  },
+  "Skills": {
+    "title": "My Skills"
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "viewProject": "View Project"
+  },
+  "Contact": {
+    "title": "Let's Connect",
+    "email": "Email Me"
+  }
+}
