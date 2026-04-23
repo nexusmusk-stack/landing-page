@@ -21,7 +21,19 @@
   },
   "Projects": {
     "title": "Featured Projects",
-    "viewProject": "View Project"
+    "viewProject": "View Project",
+    "vocab": {
+      "title": "Vocab Quiz",
+      "description": "An interactive platform for learning vocabulary through adaptive quizzes and flashcards."
+    },
+    "landing": {
+      "title": "Premium Portfolio",
+      "description": "A high-performance personal landing page with multi-language support and dark mode."
+    },
+    "nexus": {
+      "title": "Nexus Infrastructure",
+      "description": "Scalable edge-first infrastructure for modern web applications using Cloudflare Workers."
+    }
   },
   "Contact": {
     "title": "Let's Connect",

@@ -2,27 +2,27 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, BookOpen, Layout, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with Next.js, Stripe, and Tailwind CSS.",
-    tags: ["Next.js", "Stripe", "Tailwind CSS"],
+    id: "vocab",
+    icon: BookOpen,
+    link: "https://vocab-quiz.nexusmarsai.xyz/en",
+    tags: ["Next.js", "TypeScript", "Go", "PostgreSQL"],
   },
   {
-    id: 2,
-    title: "Task Management App",
-    description: "A collaborative task manager with real-time updates using WebSockets.",
-    tags: ["React", "Node.js", "Socket.io"],
+    id: "landing",
+    icon: Layout,
+    link: "#",
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
   },
   {
-    id: 3,
-    title: "AI Image Generator",
-    description: "An application that generates images from text prompts using OpenAI API.",
-    tags: ["TypeScript", "OpenAI", "Next.js"],
+    id: "nexus",
+    icon: Globe,
+    link: "#",
+    tags: ["React", "Cloudflare", "Edge Runtime"],
   }
 ];
 
@@ -53,13 +53,18 @@ export function ProjectsSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -5 }}
-              className="bg-card border border-border rounded-[12px] p-6 shadow-[0_4px_24px_rgba(0,0,0,0.05)] hover:shadow-[0_0_0_1px_var(--color-ring)] transition-all group flex flex-col h-full"
+              onClick={() => window.open(project.link, "_blank")}
+              className="bg-card border border-border rounded-[12px] p-6 shadow-[0_4px_24px_rgba(0,0,0,0.05)] hover:shadow-[0_0_0_1px_var(--color-ring)] transition-all group flex flex-col h-full cursor-pointer"
             >
+              <div className="mb-4 p-3 w-fit rounded-xl bg-secondary text-primary group-hover:scale-110 transition-transform">
+                <project.icon className="w-6 h-6" />
+              </div>
+              
               <h3 className="text-2xl font-serif font-medium mb-3 group-hover:text-primary transition-colors">
-                {project.title}
+                {t(`${project.id}.title`)}
               </h3>
               <p className="text-muted-foreground font-sans leading-[1.6] mb-6 flex-grow">
-                {project.description}
+                {t(`${project.id}.description`)}
               </p>
               
               <div className="flex flex-wrap gap-2 mb-6">
@@ -70,7 +75,11 @@ export function ProjectsSection() {
                 ))}
               </div>
               
-              <Button variant="secondary" className="w-full gap-2 rounded-[8px] font-sans shadow-[0_0_0_1px_var(--color-border)] group-hover:shadow-[0_0_0_1px_var(--color-ring)] transition-all">
+              <Button 
+                variant="secondary" 
+                className="w-full gap-2 rounded-[8px] font-sans shadow-[0_0_0_1px_var(--color-border)] group-hover:shadow-[0_0_0_1px_var(--color-ring)] transition-all cursor-pointer"
+                onClick={() => window.open(project.link, "_blank")}
+              >
                 {t("viewProject")}
                 <ExternalLink className="w-4 h-4" />
               </Button>

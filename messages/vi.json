@@ -21,7 +21,19 @@
   },
   "Projects": {
     "title": "Dự án tiêu biểu",
-    "viewProject": "Xem Dự án"
+    "viewProject": "Xem Dự án",
+    "vocab": {
+      "title": "Vocab Quiz",
+      "description": "Nền tảng tương tác giúp học từ vựng thông qua các bài kiểm tra thích ứng và thẻ ghi nhớ (flashcards)."
+    },
+    "landing": {
+      "title": "Portfolio Cao cấp",
+      "description": "Trang giới thiệu cá nhân hiệu năng cao với hỗ trợ đa ngôn ngữ và chế độ tối."
+    },
+    "nexus": {
+      "title": "Hạ tầng Nexus",
+      "description": "Hạ tầng ưu tiên Edge có khả năng mở rộng cho các ứng dụng web hiện đại sử dụng Cloudflare Workers."
+    }
   },
   "Contact": {
     "title": "Kết nối với tôi",

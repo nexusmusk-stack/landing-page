@@ -4,8 +4,8 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 const skills = [
-  "TypeScript", "React", "Next.js", "Node.js", "Tailwind CSS",
-  "GraphQL", "PostgreSQL", "Docker", "AWS", "Framer Motion"
+  "TypeScript", "React", "Next.js", "Node.js", "Golang", "Ruby",
+  "Tailwind CSS", "GraphQL", "PostgreSQL", "Docker", "AWS", "Framer Motion"
 ];
 
 export function SkillsSection() {

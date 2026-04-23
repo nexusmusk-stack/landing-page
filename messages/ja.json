@@ -21,7 +21,19 @@
   },
   "Projects": {
     "title": "主なプロジェクト",
-    "viewProject": "プロジェクトを見る"
+    "viewProject": "プロジェクトを見る",
+    "vocab": {
+      "title": "Vocab Quiz",
+      "description": "アダプティブクイズとフラッシュカードを通じて語彙を学習するための対話型プラットフォーム。"
+    },
+    "landing": {
+      "title": "プレミアムポートフォリオ",
+      "description": "多言語サポートとダークモードを備えた高性能な個人用ランディングページ。"
+    },
+    "nexus": {
+      "title": "Nexus インフラストラクチャ",
+      "description": "Cloudflare Workersを使用した、モダンなWebアプリケーション向けの拡張可能なエッジファーストインフラストラクチャ。"
+    }
   },
   "Contact": {
     "title": "つながりましょう",

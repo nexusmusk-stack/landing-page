@@ -21,7 +21,19 @@
   },
   "Projects": {
     "title": "Projets Phares",
-    "viewProject": "Voir le Projet"
+    "viewProject": "Voir le Projet",
+    "vocab": {
+      "title": "Vocab Quiz",
+      "description": "Une plateforme interactive pour apprendre le vocabulaire via des quiz adaptatifs et des flashcards."
+    },
+    "landing": {
+      "title": "Portfolio Premium",
+      "description": "Une page d'accueil personnelle haute performance avec support multi-langues et chế độ tối."
+    },
+    "nexus": {
+      "title": "Infrastructure Nexus",
+      "description": "Infrastructure évolutive orientée Edge cho ứng dụng web hiện đại sử dụng Cloudflare Workers."
+    }
   },
   "Contact": {
     "title": "Connectons-nous",
